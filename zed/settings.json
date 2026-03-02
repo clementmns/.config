@@ -1,0 +1,117 @@
+{
+  "show_whitespaces": "all",
+  "ensure_final_newline_on_save": false,
+  "format_on_save": "off",
+  "preferred_line_length": 80,
+  "vim": {
+    "toggle_relative_line_numbers": false,
+  },
+  "autosave": "on_focus_change",
+  "preview_tabs": {
+    "enabled": true,
+  },
+  "active_pane_modifiers": {
+    "inactive_opacity": 1.0,
+  },
+  "tab_bar": {
+    "show_tab_bar_buttons": true,
+    "show_nav_history_buttons": false,
+    "show": true,
+  },
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini",
+    },
+    "favorite_models": [
+      {
+        "provider": "copilot_chat",
+        "model": "claude-sonnet-4.6",
+      },
+      {
+        "provider": "copilot_chat",
+        "model": "claude-opus-4.6",
+      },
+    ],
+    "model_parameters": [],
+  },
+  "show_edit_predictions": true,
+  "edit_predictions": {
+    "disabled_globs": [],
+    "mode": "eager",
+    "provider": "copilot",
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "vim_mode": true,
+  "ui_font_family": ".ZedSans",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "diagnostics": {
+    "button": true,
+    "inline": {
+      "enabled": true,
+      "max_severity": null,
+    },
+  },
+  "agent_ui_font_size": 16,
+  "relative_line_numbers": "wrapped",
+  "theme": "Kanagawa Dragon",
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false,
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": true,
+    },
+  },
+  "outline_panel": {
+    "button": false,
+  },
+  "project_panel": {
+    "dock": "left",
+    "default_width": 225,
+    "button": true,
+    "show_diagnostics": "all",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+    "button": false,
+  },
+  "auto_install_extensions": {
+    // themes
+    "catppuccin-icons": true,
+    "catppuccin": true,
+    "git-firefly": true,
+    // langage support
+    "java": true,
+    "dockerfile": true,
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true,
+    "close_position": "right",
+    "show_diagnostics": "all",
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+  },
+  "toolbar": {
+    "code_actions": false,
+    "agent_review": true,
+    "selections_menu": true,
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_user_picture": false,
+    "show_user_menu": true,
+    "show_sign_in": false,
+    "show_branch_icon": true,
+  },
+}

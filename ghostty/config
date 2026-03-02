@@ -1,0 +1,31 @@
+theme = Citruszest
+background-opacity = 0.8
+background-blur-radius = 35
+
+font-family = JetBrainsMonoNL Nerd Font
+font-size = 16
+font-feature = -liga,-calt,-dlig
+cursor-style = block
+cursor-style-blink = false
+cursor-color = cell-foreground
+cursor-text = cell-background
+
+macos-titlebar-style = transparent
+macos-window-buttons = visible
+title = " "
+window-show-tab-bar = never
+macos-option-as-alt = true
+mouse-hide-while-typing = true
+macos-titlebar-proxy-icon = hidden
+
+confirm-close-surface = false
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+auto-update = check
+auto-update-channel = stable
+
+# extras
+shell-integration-features = no-cursor
+copy-on-select = clipboard

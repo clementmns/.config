@@ -1,0 +1,237 @@
+{
+  "profiles" : [
+    {
+      "id" : "EA5D836A-FD32-4168-94F1-AF800C2D7F4C",
+      "name" : "Personal",
+      "workspaces" : [
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.MrKai77.Loop",
+              "iconPath" : "/Applications/Loop.app/Contents/Resources/AppIcon-Classic.icns",
+              "name" : "Loop"
+            },
+            {
+              "bundleIdentifier" : "com.apple.MobileSMS",
+              "iconPath" : "/System/Applications/Messages.app/Contents/Resources/AppIcon.icns",
+              "name" : "Messages"
+            },
+            {
+              "bundleIdentifier" : "com.google.Chrome",
+              "iconPath" : "/Applications/Google Chrome.app/Contents/Resources/app.icns",
+              "name" : "Google Chrome"
+            },
+            {
+              "bundleIdentifier" : "com.apple.finder",
+              "iconPath" : "/System/Library/CoreServices/Finder.app/Contents/Resources/Finder.icns",
+              "name" : "Finder"
+            },
+            {
+              "bundleIdentifier" : "company.thebrowser.dia",
+              "iconPath" : "/Applications/Dia.app/Contents/Resources/AppIconBeta.icns",
+              "name" : "Dia"
+            },
+            {
+              "bundleIdentifier" : "com.automattic.beeper.desktop",
+              "iconPath" : "/Applications/Beeper Desktop.app/Contents/Resources/icon.icns",
+              "name" : "Beeper"
+            }
+          ],
+          "assignAppShortcut" : "ctrl+shift+&",
+          "display" : "LG HDR 4K",
+          "id" : "7155B5A1-B998-4151-81FC-451DCC0634BF",
+          "name" : "Space 1",
+          "openAppsOnActivation" : false,
+          "shortcut" : "ctrl+&",
+          "symbolIconName" : "network"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.jetbrains.WebStorm",
+              "iconPath" : "/Users/clementomnes/Applications/WebStorm.app/Contents/Resources/webstorm.icns",
+              "name" : "WebStorm"
+            },
+            {
+              "bundleIdentifier" : "com.jetbrains.datagrip",
+              "iconPath" : "/Users/clementomnes/Applications/DataGrip.app/Contents/Resources/datagrip.icns",
+              "name" : "DataGrip"
+            },
+            {
+              "bundleIdentifier" : "dev.zed.Zed",
+              "iconPath" : "/Applications/Zed.app/Contents/Resources/Zed.icns",
+              "name" : "Zed"
+            },
+            {
+              "bundleIdentifier" : "com.mitchellh.ghostty",
+              "iconPath" : "/Applications/Ghostty.app/Contents/Resources/Ghostty.icns",
+              "name" : "Ghostty"
+            }
+          ],
+          "assignAppShortcut" : "ctrl+shift+é",
+          "display" : "LG HDR 4K",
+          "id" : "E36DF524-CF56-4801-AD25-00FC9E88E7C3",
+          "name" : "Space 2",
+          "openAppsOnActivation" : false,
+          "shortcut" : "ctrl+é",
+          "symbolIconName" : "curlybraces.square.fill"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.apple.systempreferences",
+              "iconPath" : "/System/Applications/System Settings.app/Contents/Resources/SystemSettings.icns",
+              "name" : "System Settings"
+            },
+            {
+              "bundleIdentifier" : "com.figma.Desktop",
+              "iconPath" : "/Applications/Figma.app/Contents/Resources/electron.icns",
+              "name" : "Figma"
+            },
+            {
+              "bundleIdentifier" : "com.apple.Preview",
+              "iconPath" : "/System/Applications/Preview.app/Contents/Resources/AppIcon.icns",
+              "name" : "Preview"
+            },
+            {
+              "bundleIdentifier" : "com.jetbrains.rider",
+              "iconPath" : "/Users/clementomnes/Applications/Rider.app/Contents/Resources/rider.icns",
+              "name" : "JetBrains Rider"
+            },
+            {
+              "bundleIdentifier" : "",
+              "name" : "Avalonia Application"
+            },
+            {
+              "bundleIdentifier" : "com.jetbrains.intellij",
+              "iconPath" : "/Users/clementomnes/Applications/IntelliJ IDEA.app/Contents/Resources/idea.icns",
+              "name" : "IntelliJ IDEA"
+            }
+          ],
+          "assignAppShortcut" : "ctrl+shift+\"",
+          "display" : "LG HDR 4K",
+          "id" : "291FE740-307F-41D1-B975-4E84917B2D6A",
+          "name" : "Space 3",
+          "openAppsOnActivation" : false,
+          "shortcut" : "ctrl+\"",
+          "symbolIconName" : "apple.terminal.fill"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "md.obsidian",
+              "iconPath" : "/Applications/Obsidian.app/Contents/Resources/icon.icns",
+              "name" : "Obsidian"
+            },
+            {
+              "bundleIdentifier" : "com.microsoft.VSCode",
+              "iconPath" : "/Applications/Visual Studio Code.app/Contents/Resources/Code.icns",
+              "name" : "Code"
+            }
+          ],
+          "assignAppShortcut" : "ctrl+shift+'",
+          "display" : "LG HDR 4K",
+          "id" : "410D7F19-1E70-43A6-9257-86ECD22CA5E3",
+          "name" : "Space 4",
+          "openAppsOnActivation" : false,
+          "shortcut" : "ctrl+'",
+          "symbolIconName" : "note.text"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.apple.Music",
+              "iconPath" : "/System/Applications/Music.app/Contents/Resources/AppIcon.icns",
+              "name" : "Music"
+            }
+          ],
+          "assignAppShortcut" : "ctrl+shift+(",
+          "display" : "LG HDR 4K",
+          "id" : "0C00225E-E2E4-4D1F-A1EE-97CEF3992039",
+          "name" : "Space 5",
+          "openAppsOnActivation" : false,
+          "shortcut" : "ctrl+("
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.apple.mail",
+              "iconPath" : "/System/Applications/Mail.app/Contents/Resources/ApplicationIcon.icns",
+              "name" : "Mail"
+            },
+            {
+              "bundleIdentifier" : "com.microsoft.Outlook",
+              "iconPath" : "/Applications/Microsoft Outlook.app/Contents/Resources/Outlook_macOS.icns",
+              "name" : "Microsoft Outlook"
+            },
+            {
+              "bundleIdentifier" : "Mattermost.Desktop",
+              "iconPath" : "/Applications/Mattermost.app/Contents/Resources/icon.icns",
+              "name" : "Mattermost"
+            },
+            {
+              "bundleIdentifier" : "com.apple.ActivityMonitor",
+              "iconPath" : "/System/Applications/Utilities/Activity Monitor.app/Contents/Resources/AppIcon.icns",
+              "name" : "Activity Monitor"
+            },
+            {
+              "bundleIdentifier" : "com.hnc.Discord",
+              "iconPath" : "/Applications/Discord.app/Contents/Resources/electron.icns",
+              "name" : "Discord"
+            }
+          ],
+          "assignAppShortcut" : "ctrl+shift+§",
+          "display" : "Built-in Retina Display",
+          "id" : "C79C83D4-C6F3-4CD0-85BB-F848FD859A1E",
+          "name" : "Space 6",
+          "openAppsOnActivation" : false,
+          "shortcut" : "ctrl+§",
+          "symbolIconName" : "message.fill"
+        },
+        {
+          "apps" : [
+            {
+              "bundleIdentifier" : "com.apple.Safari.WebApp.A20F7831-6F10-4259-A009-F65CCAF411AD",
+              "iconPath" : "/Users/clementomnes/Applications/Daily.app/Contents/Resources/ApplicationIcon.icns",
+              "name" : "Daily"
+            },
+            {
+              "bundleIdentifier" : "com.microsoft.teams2",
+              "iconPath" : "/Applications/Microsoft Teams.app/Contents/Resources/AppIcon.icns",
+              "name" : "Microsoft Teams"
+            }
+          ],
+          "assignAppShortcut" : "ctrl+shift+è",
+          "display" : "Built-in Retina Display",
+          "id" : "A2C4247B-55C7-44F1-916D-0A14972F5F91",
+          "name" : "Space 7",
+          "openAppsOnActivation" : false,
+          "shortcut" : "ctrl+è"
+        },
+        {
+          "apps" : [
+
+          ],
+          "assignAppShortcut" : "ctrl+shift+!",
+          "display" : "Built-in Retina Display",
+          "id" : "BF76B06E-370A-4E2A-8D36-22F523AFD5BE",
+          "name" : "Space 8",
+          "openAppsOnActivation" : false,
+          "shortcut" : "ctrl+!"
+        },
+        {
+          "apps" : [
+
+          ],
+          "assignAppShortcut" : "ctrl+shift+ç",
+          "display" : "Built-in Retina Display",
+          "id" : "CFB5EFCF-C692-401D-817E-DE537E79C79C",
+          "name" : "Space 9",
+          "openAppsOnActivation" : false,
+          "shortcut" : "ctrl+ç",
+          "symbolIconName" : "tray.2.fill"
+        }
+      ]
+    }
+  ]
+}
