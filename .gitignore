@@ -1,3 +1,6 @@
 .DS_Store
 *.log
 *.mdb
+
+# Ignore GitHub Copilot files -> tokens inside
+github-copilot/
