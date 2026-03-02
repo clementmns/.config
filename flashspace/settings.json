@@ -29,6 +29,11 @@
       "bundleIdentifier" : "com.apple.Music",
       "iconPath" : "/System/Applications/Music.app/Contents/Resources/AppIcon.icns",
       "name" : "Music"
+    },
+    {
+      "bundleIdentifier" : "com.apple.finder",
+      "iconPath" : "/System/Library/CoreServices/Finder.app/Contents/Resources/Finder.icns",
+      "name" : "Finder"
     }
   ],
   "focusFrontmostWindow" : false,
