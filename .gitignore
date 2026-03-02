@@ -1,7 +1,6 @@
 .DS_Store
 *.log
 *.mdb
-nvim/
 
 # Ignore GitHub Copilot files -> tokens inside
 github-copilot/
