@@ -1,16 +1,50 @@
+# ── Environment Variables ───────────────────────────────────────────────────────
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
+# Docker
+export DOCKER_HOST=unix:///$HOME/.colima/docker.sock
+
+# ── Plugin Loading ───────────────────────────────────────────────────────────────
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
 source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# Disable underline
+# Disable underline for syntax highlighting
 (( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES
 ZSH_HIGHLIGHT_STYLES[path]=none
 ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
-source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-export DOCKER_HOST=unix:///$HOME/.colima/docker.sock
+# ── FZF Configuration ─────────────────────────────────────────────────────────────
+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git "
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
+export FZF_DEFAULT_OPTS="--height 50% --layout=default --border --color=hl:#2dd4bf"
+export FZF_CTRL_T_OPTS="--preview 'bat --color=always -n --line-range :500 {}'"
+export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | head -200'"
+export FZF_TMUX_OPTS=" -p90%,70% "
 
+# ── Aliases ───────────────────────────────────────────────────────────────────────
+alias ls="eza --no-filesize --long --color=always --icons=always --no-user"
+alias tree="tree -L 3 -a -I '.git' --charset X "
+alias dtree="tree -L 3 -a -d -I '.git' --charset X "
 
-# Start programs
+alias c="clear"
+alias e="exit"
+alias vim="nvim"
+
+# ── Interactive Setup ───────────────────────────────────────────────────────────
+# Auto-start tmux when opening ghostty
+# if [[ -z "$TMUX" ]] && [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+#   if tmux has-session -t main 2>/dev/null; then
+#     exec tmux new-session -t main
+#   else
+#     exec tmux new-session -s main
+#   fi
+# fi
+
+# Start programs on shell open
 neofetch

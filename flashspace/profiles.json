@@ -53,11 +53,6 @@
               "name" : "WebStorm"
             },
             {
-              "bundleIdentifier" : "com.jetbrains.datagrip",
-              "iconPath" : "/Users/clementomnes/Applications/DataGrip.app/Contents/Resources/datagrip.icns",
-              "name" : "DataGrip"
-            },
-            {
               "bundleIdentifier" : "dev.zed.Zed",
               "iconPath" : "/Applications/Zed.app/Contents/Resources/Zed.icns",
               "name" : "Zed"
@@ -106,6 +101,11 @@
               "bundleIdentifier" : "com.jetbrains.intellij",
               "iconPath" : "/Users/clementomnes/Applications/IntelliJ IDEA.app/Contents/Resources/idea.icns",
               "name" : "IntelliJ IDEA"
+            },
+            {
+              "bundleIdentifier" : "com.jetbrains.datagrip",
+              "iconPath" : "/Users/clementomnes/Applications/DataGrip.app/Contents/Resources/datagrip.icns",
+              "name" : "DataGrip"
             }
           ],
           "assignAppShortcut" : "ctrl+shift+\"",
@@ -127,6 +127,11 @@
               "bundleIdentifier" : "com.microsoft.VSCode",
               "iconPath" : "/Applications/Visual Studio Code.app/Contents/Resources/Code.icns",
               "name" : "Code"
+            },
+            {
+              "bundleIdentifier" : "com.todesktop.240718bnjmcfyp4",
+              "iconPath" : "/Applications/Scalar.app/Contents/Resources/icon.icns",
+              "name" : "Scalar"
             }
           ],
           "assignAppShortcut" : "ctrl+shift+'",
@@ -165,11 +170,6 @@
               "name" : "Microsoft Outlook"
             },
             {
-              "bundleIdentifier" : "Mattermost.Desktop",
-              "iconPath" : "/Applications/Mattermost.app/Contents/Resources/icon.icns",
-              "name" : "Mattermost"
-            },
-            {
               "bundleIdentifier" : "com.apple.ActivityMonitor",
               "iconPath" : "/System/Applications/Utilities/Activity Monitor.app/Contents/Resources/AppIcon.icns",
               "name" : "Activity Monitor"
@@ -178,6 +178,11 @@
               "bundleIdentifier" : "com.hnc.Discord",
               "iconPath" : "/Applications/Discord.app/Contents/Resources/electron.icns",
               "name" : "Discord"
+            },
+            {
+              "bundleIdentifier" : "Mattermost.Desktop",
+              "iconPath" : "/Applications/Mattermost.app/Contents/Resources/icon.icns",
+              "name" : "Mattermost"
             }
           ],
           "assignAppShortcut" : "ctrl+shift+§",

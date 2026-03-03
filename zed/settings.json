@@ -1,11 +1,9 @@
 {
+  "hard_tabs": false,
   "show_whitespaces": "all",
   "ensure_final_newline_on_save": false,
   "format_on_save": "off",
   "preferred_line_length": 80,
-  "vim": {
-    "toggle_relative_line_numbers": false,
-  },
   "autosave": "on_focus_change",
   "preview_tabs": {
     "enabled": true,
@@ -19,6 +17,11 @@
     "show": true,
   },
   "agent": {
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o",
+      "enable_thinking": false
+    },
     "default_model": {
       "provider": "copilot_chat",
       "model": "gpt-5-mini",
@@ -41,7 +44,7 @@
     "mode": "eager",
     "provider": "copilot",
   },
-  "icon_theme": "Catppuccin Mocha",
+  "icon_theme": "Zed (Default)",
   "vim_mode": true,
   "ui_font_family": ".ZedSans",
   "buffer_font_family": "JetBrainsMono Nerd Font",
@@ -56,7 +59,7 @@
   },
   "agent_ui_font_size": 16,
   "relative_line_numbers": "wrapped",
-  "theme": "Kanagawa Dragon",
+  "theme": "GitHub Dark",
   "telemetry": {
     "metrics": false,
     "diagnostics": false,

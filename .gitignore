@@ -4,3 +4,4 @@
 
 # Ignore GitHub Copilot files -> tokens inside
 github-copilot/
+jgit/

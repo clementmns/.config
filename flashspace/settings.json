@@ -34,6 +34,16 @@
       "bundleIdentifier" : "com.apple.finder",
       "iconPath" : "/System/Library/CoreServices/Finder.app/Contents/Resources/Finder.icns",
       "name" : "Finder"
+    },
+    {
+      "bundleIdentifier" : "com.apple.MobileSMS",
+      "iconPath" : "/System/Applications/Messages.app/Contents/Resources/AppIcon.icns",
+      "name" : "Messages"
+    },
+    {
+      "bundleIdentifier" : "com.automattic.beeper.desktop",
+      "iconPath" : "/Applications/Beeper Desktop.app/Contents/Resources/icon.icns",
+      "name" : "Beeper"
     }
   ],
   "focusFrontmostWindow" : false,
