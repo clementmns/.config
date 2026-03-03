@@ -37,14 +37,14 @@ alias e="exit"
 alias vim="nvim"
 
 # ── Interactive Setup ───────────────────────────────────────────────────────────
-# Auto-start tmux when opening ghostty
-# if [[ -z "$TMUX" ]] && [[ "$TERM_PROGRAM" == "ghostty" ]]; then
-#   if tmux has-session -t main 2>/dev/null; then
-#     exec tmux new-session -t main
-#   else
-#     exec tmux new-session -s main
-#   fi
-# fi
+Auto-start tmux when opening ghostty
+if [[ -z "$TMUX" ]] && [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+  if tmux has-session -t main 2>/dev/null; then
+    exec tmux new-session -t main
+  else
+    exec tmux new-session -s main
+  fi
+fi
 
 # Start programs on shell open
 neofetch
